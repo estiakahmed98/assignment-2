@@ -19,6 +19,7 @@
         <a id="admission" href="#">Admission</a>
       </div>
       <button class="contact-btn">Contact Us</button>
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
     </nav>
 
     <section class="banner">
@@ -29,7 +30,7 @@
           <span id="towards">towards vision</span>
         </h1>
         <p>Join our learning journey to empower the next generation.</p>
-        <button class="contact-btn" id="banner-btn">Enroll Now</button>
+        <button class="enroll-btn" id="banner-btn">Enroll Now</button>
       </div>
       <div class="banner-image">
         <img src="./assets/hero-kids.png" alt="Student" />
@@ -43,72 +44,144 @@
     <section class="curriculum">
       <h2>Standard Curriculum</h2>
       <div class="curriculum-cards">
-        <div class="curriculum-card">
-          <img src="/api/placeholder/80/80" alt="Kinder" />
+        <div id="card-1" class="curriculum-card">
+          <img src="/assets/kinder.png" alt="Kinder" />
           <h3>Kinder (3-6 Years)</h3>
-          <a href="#">Read More</a>
+          <p>
+            Kinder (3-6 years) is a vital stage of early childhood development,
+            fostering creativity, social skills, and foundational learning
+            through engaging activities, playful exploration, and nurturing
+            environments for holistic growth.
+          </p>
+          <p id="card-btn1">Read More</p>
         </div>
-        <div class="curriculum-card">
-          <img src="/api/placeholder/80/80" alt="Elementary" />
+
+        <div id="card-3" class="curriculum-card">
+          <img src="/assets/elementary.png" alt="Elementary" />
           <h3>Elementary School</h3>
-          <a href="#">Read More</a>
+          <p>
+            Elementary School (6-12 years) builds a strong foundation in
+            academics, critical thinking, and social skills. It fosters
+            creativity, curiosity, and character development, preparing children
+            for future learning and life experiences.
+          </p>
+          <p id="card-btn2">Read More</p>
         </div>
-        <div class="curriculum-card">
-          <img src="/api/placeholder/80/80" alt="Middle" />
+
+        <div id="card-2" class="curriculum-card">
+          <img src="/assets//middle.png" alt="Middle" />
           <h3>Middle (9-13 Years)</h3>
-          <a href="#">Read More</a>
+          <p>
+            Middle School (9-13 years) bridges childhood and adolescence,
+            emphasizing critical thinking, independe nce, and teamwork. It
+            nurtures academic growth, social skills and emotional development.
+          </p>
+          <p id="card-btn3">Read More</p>
         </div>
+      </div>
+
+      <div class="card-nav">
+        <p class="arrow"><</p>
+        <p class="arrow">></p>
       </div>
     </section>
 
     <section class="stories">
       <h2>Our Stories</h2>
       <div class="stories-grid">
-        <div class="story-card">
-          <img src="/api/placeholder/300/200" alt="Story 1" />
+        <div class="story-card-1">
+          <img src="/assets/story-1.png" alt="Story 1" />
+          <p id="date-btn-1" class="date-btn">November 19, 2019</p>
           <div class="story-content">
-            <h3>Fun learning activities</h3>
-            <p>Engaging classroom experiences</p>
+            <h3>Fun Learning Activities</h3>
+            <p>
+              In a bright and cheerful classroom, toddlers gather around small
+              tables, ready for a fun coloring training session. With crayons,
+              markers, and paint in hand, they excitedly explore a world of
+              colors. Their tiny fingers grip the paper as they fill in playful
+              shapes, like stars, trees, and rainbows. The room buzzes with joy
+              as they learn to color inside the lines while expressing their
+              creativity.
+            </p>
           </div>
         </div>
-        <div class="story-card">
-          <img src="/api/placeholder/300/200" alt="Story 2" />
-          <div class="story-content">
-            <h3>Creative workshops</h3>
-            <p>Fostering imagination</p>
+
+        <div class="story-card-2">
+          <div class="story-card">
+            <img src="/assets/story-2.png" alt="Story 2" />
+            <p id="date-btn-2" class="date-btn">November 19, 2019</p>
+            <div class="story-content">
+              <h3>Creative workshops</h3>
+            </div>
           </div>
-        </div>
-        <div class="story-card">
-          <img src="/api/placeholder/300/200" alt="Story 3" />
-          <div class="story-content">
-            <h3>Outdoor activities</h3>
-            <p>Learning through play</p>
+
+          <div class="story-card">
+            <img src="/assets/story-3.png" alt="Story 2" />
+            <p id="date-btn-3" class="date-btn">November 19, 2019</p>
+            <div class="story-content">
+              <h3>Family’s Needs</h3>
+            </div>
+          </div>
+
+          <div class="story-card">
+            <img src="/assets/story-4.png" alt="Story 2" />
+            <p id="date-btn-2" class="date-btn">September 10, 2019</p>
+            <div class="story-content">
+              <h3>Classroom Management</h3>
+            </div>
+          </div>
+
+          <div class="story-card">
+            <img src="/assets/story-5.png" alt="Story 3" />
+            <p id="date-btn-2" class="date-btn">July 10, 2019</p>
+            <div class="story-content">
+              <h3>Improve Kids Listening</h3>
+            </div>
           </div>
         </div>
       </div>
+      <button class="enroll-btn" id="view-btn">View All</button>
     </section>
 
     <footer>
       <div class="footer-content">
         <div class="footer-about">
-          <img src="/api/placeholder/40/40" alt="Logo" />
-          <h3>Kids Education</h3>
-          <p>Empowering young minds for a brighter future.</p>
+          <div class="footer-icon">
+            <img src="/assets/logo.png" alt="Logo" />
+            <h3>Kids Education</h3>
+          </div>
+          <p>
+            Kids' education is essential for their growth, creativity, and
+            future success. Early learning enhances cognitive skills, social
+            development, and problem-solving abilities.
+          </p>
         </div>
         <div class="footer-links">
-          <h4>Quick Links</h4>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Courses</a></li>
-          </ul>
+          <h4>About School</h4>
+          <div>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Facilities</a></li>
+              <li><a href="#">Admission</a></li>
+            </ul>
+          </div>
         </div>
         <div class="footer-social">
-          <h4>Connect With Us</h4>
+          <h4>Keep In Touch</h4>
           <div class="social-links">
-            <a href="#">FB</a>
-            <a href="#">TW</a>
-            <a href="#">IG</a>
+            <a href="https://facebook.com" target="_blank">
+              <img src="/assets/fb.png" alt="Facebook" />
+            </a>
+            <a href="https://dribble.com" target="_blank">
+              <img src="/assets/dribble.png" alt="dribble" />
+            </a>
+            <a href="https://twitter.com" target="_blank">
+              <img src="/assets/twitter.png" alt="Twitter" />
+            </a>
+            <a href="https://twitter.com" target="_blank">
+              <img src="/assets/google+.png" alt="Google+" />
+            </a>
           </div>
         </div>
       </div>
